@@ -21,9 +21,21 @@
 9. Cформировать и вывести на экран новый массив d, соединив массивы b и c по вертикали;
 10. Удалить 2 и 3 столбец массива d
 
-### ТЗ №2 (Порядок выполнения):
+### ТЗ №2 (Построение линейных и точечных графиков (matplotlib.pyplot)):
 
--
+#### П.1 Построение линейных и точечных графиков с использованием модуля pyplot библиотеки Matplotlib
+
+Протабулировать функции
+
+- y1(x) = a * x + b
+- y2(x) = (a + x) + c * cos(b * x)
+
+на отрезке [-7; 7] с шагом 0.5.
+
+y1 вывести линией (plot), y2 — точками (scatter).
+Параметры берутся из таблицы по номеру варианта.
+
+#### П.2 Построение столбиковых и круговых диаграмм
 
 ### Полезные ссылки: 
 
@@ -33,3 +45,8 @@
 4. https://pythonru.com/biblioteki/biblioteka-numpy-vvedenie-i-ustanovka
 5. https://matplotlib.org/
 6. https://proproprogs.ru/modules/matplotlib-ustanovka-paketa-i-osnovnye-vozmozhnosti
+
+### Редактор:
+
+1. https://gesis.mybinder.org/ (Документация по GUI)
+2. https://hub.gesis.mybinder.org/user/matplotlib-mpl-brochure-binder-umlqivq7/lab/tree/_PreProcess.ipynb (GUI)
